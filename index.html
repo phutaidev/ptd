@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Website Profile PTD V1.">
-    <meta name="keywords" content="website">
+    <meta name="description" content="Trang Web Chính Thức Của Phú Tài Dev.">
+    <meta name="keywords" content="Website, Web, PTD, Phu Tai, Phu Tai Dev, Phú Tài, Phú Tài Dev">
     <meta property="og:url" content="https://phutaiofficial.pages.dev/">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Website Profile PTD V1">
-    <meta property="og:description" content="website">
-    <meta property="og:image" content="https://i.imgur.com/9KL7Ugv.jpg">
-    <title>Phú Tài Dev - Home V1</title>
-    <link rel="shortcut icon" href="./assets/logo.webp" type="image/x-icon">
+    <meta property="og:title" content="Trang Web Chính Thức Của Phú Tài Dev.">
+    <meta property="og:description" content="Trang Web Chính Thức Chia Sẻ Các Kiến Thức Và Nhiều Nội Dung Khác Của PTD.">
+    <meta property="og:image" content="https://phutaiofficial.pages.dev/assets/images/ptd.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <title>Phú Tài Dev - Error 404</title>
+    <link rel="icon" href="./assets/images/ptd.png" type="image/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css">
     <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css">
@@ -28,10 +30,12 @@
         <div class="container">
             <div class="header">
 
-                <a href="https://phutaiofficial.pages.dev/" class="h__logo" id="logoText">
+                <a href="#" class="h__logo" id="logoText">
                     <i class="fi fi-br-terminal"></i>
                     <span id="text"></span><span class="cursor">|</span>
                 </a>
+
+                <audio id="logoMusic" src="./assets/sounds/music.mp3"></audio>
 
                 <div class="header-actions">
 
@@ -101,7 +105,7 @@
                     </svg>
 
                     <div class="profile__perfil">
-                        <img src="./assets/images/logo.webp" alt="PTD Logo">
+                        <img src="./assets/images/t.webp" alt="PTD Logo">
                     </div>
                 </div>
 
@@ -141,17 +145,22 @@
             </div>
 
             <div class="profile__buttons">
-                <a href="discord.com" class="button">
+                <a href="https://dsc.gg/ptd-vn" class="button">
                     <span data-i18n data-en="Join Server" data-vi="Tham Gia Server"></span>
-                    <i class="fi fi-br-users"></i>
+                    <i class="fi fi-brands-discord"></i>
                 </a>
 
                 <div class="profile__buttons-small">
                     <a href="mailto:phutaiofficial@gmail.com" class="button button__small button__gray">
-                        <i class="fi fi-sr-envelope"></i>
+                        <i class="fi fi-brands-facebook"></i>
+                    </a>       
+                        <a href="mailto:phutaiofficial@gmail.com" class="button button__small button__gray">
+                        <i class="fi fi-brands-youtube"></i>
                     </a>       
                     <a href="messenger.com" target="_blank" class="button button__small button__gray">
-                        <i class="fi fi-brands-facebook-messenger"></i>
+                        <i class="fi fi-brands-spotify"></i>
+                        <a href="messenger.com" target="_blank" class="button button__small button__gray">
+                        <i class="fi fi-brands-github"></i>
                     </a>
                 </div>
             </div>
@@ -173,12 +182,50 @@
 <section class="navbar">
     <div class="nav__menu">
         <ul class="nav__list">
-            <li class="nav__item"><a href="./index.html" class="nav__link active-link"><i class="fi fi-sr-home"></i></a></li>
-            <li class="nav__item"><a href="./skills.html" class="nav__link"><i class="fi fi-sr-star"></i></a></li>
-            <li class="nav__item"><a href="./about.html" class="nav__link"><i class="fi fi-sr-user"></i></a></li>
-            <li class="nav__item"><a href="./store.html" class="nav__link"><i class="fi fi-sr-shopping-cart"></i></a></li>
-            <li class="nav__item"><a href="./project.html" class="nav__link"><i class="fi fi-sr-briefcase"></i></a></li>
-            <li class="nav__item"><a href="./contact.html" class="nav__link"><i class="fi fi-sr-comment-alt"></i></a></li>
+
+            <li class="nav__item">
+                <a href="./index.html" class="nav__link active-link">
+                    <i class="fi fi-sr-home"></i>
+                </a>
+            </li>
+
+            <li class="nav__item">
+                <a href="./skills.html" class="nav__link">
+                    <i class="fi fi-sr-star"></i>
+                </a>
+            </li>
+
+            <li class="nav__item">
+                <a href="./about.html" class="nav__link">
+                    <i class="fi fi-sr-user"></i>
+                </a>
+            </li>
+
+            <li class="nav__item nav__folder">
+                <a href="#" class="nav__link" id="folderToggle">
+                    <i class="fi fi-sr-folder"></i>
+                </a>
+
+                <div class="nav__submenu" id="folderMenu">
+
+                    <div class="submenu-item">
+                        <button class="submenu-btn">SAMP ▸</button>
+                        <div class="submenu-child">
+                            <a href="#" data-i18n data-en="SKIN" data-vi="TRANG PHỤC"></a>
+                        </div>
+                    </div>
+
+                    <a href="#" class="submenu-single">Source Code</a>
+
+                </div>
+            </li>
+
+            <li class="nav__item">
+                <a href="./contact.html" class="nav__link">
+                    <i class="fi fi-sr-comment-alt"></i>
+                </a>
+            </li>
+
         </ul>
     </div>
 </section>
