@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website Profile PTD V1.">
+    <meta name="keywords" content="website">
+    <meta property="og:url" content="https://phutaiofficial.pages.dev/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Website Profile PTD V1">
+    <meta property="og:description" content="website">
+    <meta property="og:image" content="https://i.imgur.com/9KL7Ugv.jpg">
+    <title>Phú Tài Dev - Home V1</title>
+    <link rel="shortcut icon" href="./assets/logo.webp" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="header-area pt-3 pb-3">
+        <div class="container">
+            <div class="header">
+
+                <a href="https://phutaiofficial.pages.dev/" class="h__logo" id="logoText">
+                    <i class="fi fi-br-terminal"></i>
+                    <span id="text"></span><span class="cursor">|</span>
+                </a>
+
+                <div class="header-actions">
+
+                    <img
+                        id="langToggle"
+                        src="us.webp"
+                        alt="Language"
+                        class="lang-icon"
+                    >
+                    <audio id="languageSound" src="./assets/sounds/language.mp3" preload="auto"></audio>
+
+                    <div class="dark-light">
+
+                        <svg class="dark-light-icon moon" width="20" height="20" viewBox="0 0 24 24">
+                            <path
+                                d="M21 12.8 A9 9 0 0111.2 3 A7 7 0 1012 21 A9 9 0 0021 12.8Z"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                            />
+                        </svg>
+
+                        <svg class="dark-light-icon sun" width="20" height="20" viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="5" fill="currentColor"/>
+                            <g stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                                <line x1="12" y1="1" x2="12" y2="3"/>
+                                <line x1="12" y1="21" x2="12" y2="23"/>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                                <line x1="1" y1="12" x2="3" y2="12"/>
+                                <line x1="21" y1="12" x2="23" y2="12"/>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                            </g>
+                        </svg>
+                    </div>
+
+                    <audio id="soundOn" src="./assets/sounds/clickOn.mp3" preload="auto"></audio>
+                    <audio id="soundOff" src="./assets/sounds/clickOff.mp3" preload="auto"></audio>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+<section class="profile" id="home">
+    <div class="container">
+        <div class="profile__area grid">
+
+            <div class="profile__data">
+                <div class="profile__border">
+                    <svg viewBox="0 0 500 500">
+                        <path
+                            class="st0"
+                            d="M471.5,157.6c51.1,122.3-6.7,262.9-129,313.9c-298.7,111-473.7-308.8-184.9-443C279.9-22.5,420.4,35.2,471.5,157.6Z"
+                            style="
+                                fill: none;
+                                stroke: var(--ac);
+                                stroke-width: 10;
+                                stroke-linecap: round;
+                                stroke-linejoin: round;
+                                stroke-dasharray: 188.5031,188.5031;
+                            "
+                        />
+                    </svg>
+
+                    <div class="profile__perfil">
+                        <img src="./assets/images/logo.webp" alt="PTD Logo">
+                    </div>
+                </div>
+
+                <h2 class="profile__name">
+                    Phú Tài <i class="fas fa-check-circle"></i>
+                </h2>
+
+                <h3
+                    class="profile_profession"
+                    data-i18n
+                    data-en="I am a guy with a passion for programming."
+                    data-vi="Tôi là một chàng trai có niềm đam mê về lập trình."
+                ></h3>
+            </div>
+
+            <div class="profile__info grid">
+                <div class="profile__info-group">
+                    <h3 class="profile__info_number">
+                        <i class="fi fi-br-briefcase"></i>7+
+                    </h3>
+                    <p class="profile__info-description" data-i18n data-en="Projects" data-vi="Dự Án"></p>
+                </div>
+
+                <div class="profile__info-group">
+                    <h3 class="profile__info_number">
+                        <i class="fi fi-br-calendar"></i>2009
+                    </h3>
+                    <p class="profile__info-description" data-i18n data-en="Year of Birth" data-vi="Năm Sinh"></p>
+                </div>
+
+                <div class="profile__info-group">
+                    <h3 class="profile__info_number">
+                        <i class="fi fi-br-marker"></i>TP HCM
+                    </h3>
+                    <p class="profile__info-description" data-i18n data-en="Location" data-vi="Địa Điểm"></p>
+                </div>
+            </div>
+
+            <div class="profile__buttons">
+                <a href="discord.com" class="button">
+                    <span data-i18n data-en="Join Server" data-vi="Tham Gia Server"></span>
+                    <i class="fi fi-br-users"></i>
+                </a>
+
+                <div class="profile__buttons-small">
+                    <a href="mailto:phutaiofficial@gmail.com" class="button button__small button__gray">
+                        <i class="fi fi-sr-envelope"></i>
+                    </a>       
+                    <a href="messenger.com" target="_blank" class="button button__small button__gray">
+                        <i class="fi fi-brands-facebook-messenger"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+</main>
+
+<footer class="footer container">
+    <span
+        class="footer__copy"
+        data-i18n
+        data-en="© 2026 Phú Tài Dev - All Rights Reserved."
+        data-vi="© 2026 Phú Tài Phát Triển - Đã Đăng Ký Bản Quyền."
+    ></span>
+</footer>
+
+<section class="navbar">
+    <div class="nav__menu">
+        <ul class="nav__list">
+            <li class="nav__item"><a href="./index.html" class="nav__link active-link"><i class="fi fi-sr-home"></i></a></li>
+            <li class="nav__item"><a href="./skills.html" class="nav__link"><i class="fi fi-sr-star"></i></a></li>
+            <li class="nav__item"><a href="./about.html" class="nav__link"><i class="fi fi-sr-user"></i></a></li>
+            <li class="nav__item"><a href="./store.html" class="nav__link"><i class="fi fi-sr-shopping-cart"></i></a></li>
+            <li class="nav__item"><a href="./project.html" class="nav__link"><i class="fi fi-sr-briefcase"></i></a></li>
+            <li class="nav__item"><a href="./contact.html" class="nav__link"><i class="fi fi-sr-comment-alt"></i></a></li>
+        </ul>
+    </div>
+</section>
+
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+<script src="./assets/script.js"></script>
+
+</body>
+</html>
