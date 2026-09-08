@@ -1,7 +1,5 @@
-/*=============== GOOGLE FONTS =
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");==============*/
-@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&display=swap");
-
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 /*=============== PTD FONTS ===============*/
 /*@font-face {
@@ -10,8 +8,6 @@
     font-weight: 600;
     font-style: normal;
     font-display: swap;
-    
-    font-family: 'Poppins', sans-serif;
 }*/
 
 :root {
@@ -67,7 +63,7 @@ body {
 	--ac: #000000;
     background-color: var(--bg01);
     color: var(--color02);
-    font-family: 'Plus Jakarta Sans', 'Poppins', sans-serif;    
+    font-family: 'Poppins', sans-serif;    
 }
 
 h1,
