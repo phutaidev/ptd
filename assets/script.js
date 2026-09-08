@@ -4,17 +4,17 @@ document.addEventListener("DOMContentLoaded", () => {
     const textEl = document.getElementById("text");
     if (textEl) {
         if (sessionStorage.getItem("logoTyped") === "true") {
-            textEl.textContent = "PHUTAIDEV";
+            textEl.textContent = "  점검 중 , 지연됨 .! ";
         } else {
             let charIndex = 0;
-            const word = "PHUTAIDEV";
+            const word = "  점검 중 , 지연됨 .! ";
 
             function type() {
                 textEl.textContent = word.slice(0, charIndex + 1);
                 charIndex++;
 
                 if (charIndex < word.length) {
-                    setTimeout(type, 150);
+                    setTimeout(type, 200);
                 } else {
                     sessionStorage.setItem("logoTyped", "true");
                 }

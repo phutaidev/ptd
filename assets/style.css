@@ -1,6 +1,7 @@
 /*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
+
 /*=============== PTD FONTS ===============*/
 /*@font-face {
     font-family: 'Poppins';
@@ -8,6 +9,8 @@
     font-weight: 600;
     font-style: normal;
     font-display: swap;
+    
+    font-family: 'Poppins', sans-serif;
 }*/
 
 :root {
@@ -63,7 +66,7 @@ body {
 	--ac: #000000;
     background-color: var(--bg01);
     color: var(--color02);
-    font-family: 'Poppins', sans-serif;    
+    font-family: 'Poppins', sans-serif;
 }
 
 h1,
